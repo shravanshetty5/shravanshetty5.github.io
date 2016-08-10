@@ -90,7 +90,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -167,9 +167,19 @@ header h2 {
   float: left;
   padding: 10px;
   width: 200px;
+
   display: none;
 }
 
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 20px;
+}
 
 img {
   padding: 10px;
@@ -290,6 +300,9 @@ a.button span {
 #view-on-github {
   margin-right: 0;
 }
+#skills-h3 {
+  margin-left: 2.25em;
+}
 
 code, pre {
   margin-bottom: 30px;
@@ -364,6 +377,7 @@ form {
 }
 
 
+
 /* GENERAL ELEMENT TYPE STYLES */
 
 h1 {
@@ -423,7 +437,7 @@ blockquote {
 ul li {
   list-style-position: inside;
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 ol li {
