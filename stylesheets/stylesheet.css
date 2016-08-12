@@ -303,6 +303,18 @@ a.button span {
 #view-on-github {
   margin-right: 0;
 }
+#view-on-linkedIn span {
+  background: transparent url(../images/linkedin-icon2.png) 12px 50% no-repeat;
+}
+#view-on-linkedIn {
+  margin-right: 0;
+}
+#view-on-facebook span {
+  background: transparent url(../images/facebook-icon.png) 12px 50% no-repeat;
+}
+#view-on-facebook {
+  margin-right: 0;
+}
 #skills-h3 {
   margin-left: 2.25em;
 }
