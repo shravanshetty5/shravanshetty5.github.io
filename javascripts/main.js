@@ -4,8 +4,8 @@ var HTMLmobile = '<li class="flex-item"><span class="pad">mobile</span><span>%da
 var HTMLemail = '<li class="flex-item"><span class="pad">email</span><span>%data%</span></li>';
 
 var ContactInfo = {
-  "email": "shravash@cisco.com",
-  "mobile": "(979) 422 7984",
+  "email": "shravanshetty@tamu.edu",
+  "mobile": "(979) 422-7984",
   "github":"shravanshetty5",
   "twitter":"",
   "location":"College Station, TX"
@@ -19,7 +19,6 @@ var bio = {
   "skills" : skills,
   "WelcomeMessage" : "Hi Guys, Thank you for taking the time to go through my profile"
 };
-
 
 if (bio.skills.length > 0){
   $("#skillSet").append(HTMLskillsStart);
