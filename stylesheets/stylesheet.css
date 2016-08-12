@@ -165,8 +165,11 @@ header h2 {
 
 .biopic {
   float: left;
-  padding: 10px;
+  border: 10px;
+  padding: 0px;
   width: 200px;
+  border-style: solid;
+  border-color: #303030;
 
   display: none;
 }
@@ -304,13 +307,14 @@ a.button span {
   margin-left: 2.25em;
 }
 #contact {
-  padding-left: 20px;
+  padding-left: 32px;
 }
 #skillSet {
   margin-top: 12px;
 }
 #skills {
   padding-top: 0px;
+  margin-left: 32px;
 }
 code, pre {
   margin-bottom: 30px;
