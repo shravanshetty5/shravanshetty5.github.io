@@ -306,7 +306,12 @@ a.button span {
 #contact {
   padding-left: 20px;
 }
-
+#skillSet {
+  margin-top: 12px;
+}
+#skills {
+  padding-top: 0px;
+}
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
@@ -396,7 +401,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   margin-left: 2.25em;
   font-size: 18px;
   font-weight: bold;
