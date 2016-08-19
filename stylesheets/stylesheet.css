@@ -90,7 +90,7 @@ header h2 {
 }
 
 .inner {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -328,6 +328,22 @@ a.button span {
   padding-top: 0px;
   margin-left: 32px;
 }
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
