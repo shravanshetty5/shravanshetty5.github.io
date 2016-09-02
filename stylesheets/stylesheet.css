@@ -98,6 +98,11 @@ header h2 {
   max-width: 100%;
 }
 
+#mapDiv {
+  width: 120%;
+  margin: 0 auto;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
@@ -225,7 +230,9 @@ span {
 #map {
   display: block;
   height: 100%;
-  margin: 0 5%;
+  margin: 0;
+  border: 1px;
+  border-style: solid;
 }
 
 #mapDiv {
