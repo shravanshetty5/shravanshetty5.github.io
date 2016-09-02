@@ -74,13 +74,13 @@ var work = {
         "title": "Research Assistant",
         "location": "College Station, TX",
         "dates": "Aug 2015-May 2016",
-        "description": "Worked on developing an application that integrates multiple safety databases"
+        "description": "My role as a Graduate Research Assistant involves designing the System architecture for a Systems Safety Data Network and capturing all essential data required to make predictive analysis on accident data. I have authored and presented papers at the ISERC and CSERC conferences on the same."
     }, {
         "employer": "Accenture",
         "title": "Software Engineer",
         "location": "Hyderabad, AP",
         "dates": "Jan 2013-April 2015",
-        "description": "ERP Developer working on CRM"
+        "description": "As a PeopleSoft Techno-Functional  consultant at Accenture, I was in charge of managing the online order capture module of an advertising company based in Texas. The skills i developed here are Requirement analysis, PeopleSoft API, PeopleCode,JAVA, Database Analysis, PL/SQL scripting and XML."
     }]
 };
 
