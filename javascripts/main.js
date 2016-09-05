@@ -20,6 +20,8 @@ var HTMLworkDescription = '<p class="description"><br>%data%</p>';
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="#">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
+var HTMLprojectSkillsStart = '<div id="project-skills-h3">Skills Utilized</div><ul id="project-skills" class="flex-box"></ul>';
+var HTMLprojectSkills = '<li class="flex-item"><span>%data%</span></li>'
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
 
@@ -142,6 +144,7 @@ var projects = {
         "title": "System Safety Data Network",
         "dates": "Aug 2015-May 2016",
         "description": "This paper presents the current status in the design of the System Safety Database, a comprehensive object-oriented database capable of generating reports, statistics, and lessons learned from a variety of disparate system contexts.",
+        "techSkills":["Database Design","SQL","Research","UML","MySQL","Cassandra"],
         "images": ["images/Database.png"]
     }]
 };
@@ -156,6 +159,11 @@ projects.display = function(){
             $(".project-entry:last").append(formatedProjectDates);
             var formatedProjectDescription = HTMLprojectDescription.replace("%data%",projects.projects[project].description);
             $(".project-entry:last").append(formatedProjectDescription);
+            $(".project-entry:last").append(HTMLprojectSkillsStart);
+            for (skill in projects.projects[project].techSkills){
+                var projectSkillsFormated = HTMLprojectSkills.replace("%data%", projects.projects[project].techSkills[skill]);
+                $("#project-skills").append(projectSkillsFormated);
+            }
 
             if (projects.projects[project].images.length > 0) {
                     for (image in projects.projects[project].images) {

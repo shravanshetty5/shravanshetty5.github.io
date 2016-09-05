@@ -185,8 +185,6 @@ header h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
-  margin-left: 20px;
 }
 
 img {
